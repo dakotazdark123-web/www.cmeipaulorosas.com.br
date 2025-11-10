@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMEI Professor Paulo Rosas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #fffaf8;
+      color: #444;
+    }
+
+    header {
+      background-color: #fce2d6;
+      color: #444;
+      text-align: center;
+      padding: 30px 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #4a3f35;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4a3f35;
+      font-weight: bold;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #e07b67;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 1.6rem;
+      color: #4a3f35;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .illustration {
+      max-width: 300px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .team-card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 180px;
+    }
+
+    .team-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .team-card h3 {
+      font-size: 1rem;
+      color: #4a3f35;
+    }
+
+    .environment-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .environment-card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      width: 250px;
+    }
+
+    .environment-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #fce2d6;
+      text-align: center;
+      padding: 20px;
+      color: #4a3f35;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #e07b67;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CMEI Professor Paulo Rosas</h1>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#ambientes">Ambientes</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bem-vindos ao nosso espaço de descobertas 🌼</h2>
+    <p>
+      O CMEI Professor Paulo Rosas é um lugar onde cada sorriso conta uma história,
+      e cada dia é uma nova oportunidade de aprender com alegria e afeto.
+    </p>
+    <img src="https://storyset.com/illustration/teaching/bro" alt="Ilustração de educação infantil" class="illustration" />
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre o CMEI</h2>
+    <p>
+      O <strong>Centro Municipal de Educação Infantil Professor Paulo Rosas</strong> é um espaço de descobertas,
+      afetos e aprendizados que florescem todos os dias. Aqui, cada criança é acolhida em sua singularidade,
+      com o cuidado, o respeito e o carinho que merecem — porque acreditamos que educar é, antes de tudo, um ato de amor.
+    </p>
+    <p>
+      Nossa creche pública é um lugar onde brincar e aprender caminham juntos. Através de experiências lúdicas,
+      música, histórias, arte e convivência, promovemos o desenvolvimento integral das crianças,
+      respeitando seus ritmos e potencialidades.
+    </p>
+    <p>
+      Valorizamos profundamente a <strong>parceria com as famílias</strong>, reconhecendo que o cuidado e a educação acontecem em rede.
+      Por isso, buscamos manter um diálogo constante com pais e responsáveis, fortalecendo os laços que nos unem em torno
+      de um mesmo propósito: garantir uma infância feliz, curiosa e cheia de possibilidades.
+    </p>
+  </section>
+
+  <section id="equipe">
+    <h2>Nossa Equipe</h2>
+
+    <h3>Equipe Pedagógica</h3>
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="https://storyset.com/illustration/teacher/bro" alt="Educadora">
+        <h3>Maria Silva</h3>
+        <p>Professora</p>
+      </div>
+      <div class="team-card">
+        <img src="https://storyset.com/illustration/teacher/cuate" alt="Educadora">
+        <h3>João Souza</h3>
+        <p>Coordenador Pedagógico</p>
+      </div>
+      <div class="team-card">
+        <img src="https://storyset.com/illustration/teacher/pana" alt="Educadora">
+        <h3>Ana Paula</h3>
+        <p>Professora Auxiliar</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top: 40px;">Funcionários e Serviços</h3>
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="https://storyset.com/illustration/cleaning/bro" alt="Funcionária da limpeza">
+        <h3>Luciana</h3>
+        <p>Serviços Gerais</p>
+      </div>
+      <div class="team-card">
+        <img src="https://storyset.com/illustration/security/pana" alt="Porteiro">
+        <h3>José Carlos</h3>
+        <p>Portaria</p>
+      </div>
+      <div class="team-card">
+        <img src="https://storyset.com/illustration/cooking/bro" alt="Cozinheira">
+        <h3>Patrícia</h3>
+        <p>Cozinha</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ambientes">
+    <h2>Nossos Ambientes</h2>
+    <div class="environment-grid">
+      <div class="environment-card">
+        <img src="https://storyset.com/illustration/classroom/bro" alt="Sala de aula">
+        <h3>Sala de Aula</h3>
+        <p>Espaço de aprendizado e imaginação, onde as crianças exploram o mundo com curiosidade e alegria.</p>
+      </div>
+      <div class="environment-card">
+        <img src="https://storyset.com/illustration/garden/bro" alt="Jardim">
+        <h3>Jardim</h3>
+        <p>Ambiente de contato com a natureza, onde brincar e cuidar se encontram.</p>
+      </div>
+      <div class="environment-card">
+        <img src="https://storyset.com/illustration/playground/bro" alt="Pátio">
+        <h3>Pátio</h3>
+        <p>Espaço aberto para correr, brincar e celebrar cada conquista com os amigos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📍 Rua das Flores, 123 – Várzea, Recife – PE</p>
+    <p>📧 cmei.paulorosas@educa.recife.pe.gov.br</p>
+    <p>📞 (81) 99999-9999</p>
+  </section>
+
+  <footer>
+    <p>© 2025 CMEI Professor Paulo Rosas | Desenvolvido com carinho 💛</p>
+    <p>Imagens ilustrativas: <a href="https://storyset.com">Storyset</a></p>
+  </footer>
+
+</body>
+</html>
